@@ -1,0 +1,42 @@
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class product {
+	
+	public static void main(String []args) {
+		
+		Scanner input =new Scanner (System.in);
+		Scanner input1 =new Scanner (System.in);
+		Scanner input2 =new Scanner (System.in);
+		Scanner input3 =new Scanner (System.in);
+		Scanner input4 =new Scanner (System.in);
+		
+		int id;
+		
+		double price;
+		
+		String title,description,category;
+
+		System.out.println("Enter id : ");
+		id  = input.nextInt();
+		System.out.println("Enter price : ");s
+		price  = input.nextDouble();
+		System.out.println("Enter title : ");
+		title  = input.nextLine();
+		System.out.println("description : ");
+		description  = input.nextLine();
+		System.out.println("Enter category : ");
+		category  = input.nextLine();
+		
+		 
+		 System.out.println("id = \n" +id );
+		 System.out.println("price = \n" +price );
+		 System.out.println("title = \n" +title );
+		 System.out.println("description = \n" +description );
+		 System.out.println("category = \n" +category );
+		 
+		
+	}
+
+}
